@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/evergreen_villa_website.html"
-    }
-  ]
   "headers": [
     {
       "source": "/sitemap.xml",
@@ -15,6 +9,16 @@
           "value": "application/xml"
         }
       ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/evergreen_villa_website.html"
     }
   ]
 }
