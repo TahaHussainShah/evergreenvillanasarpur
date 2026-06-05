@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evergreenvillanasarpur.vercel.app/sitemap.xml
