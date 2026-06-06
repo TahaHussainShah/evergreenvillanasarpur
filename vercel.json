@@ -21,7 +21,11 @@
       "dest": "/sitemap.xml"
     },
     {
-      "src": "/(.*)",
+      "src": "/(.*\\.(jpg|jpeg|png|webp|gif|svg))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/",
       "dest": "/evergreen_villa_website.html"
     }
   ]
